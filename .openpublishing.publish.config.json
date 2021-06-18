@@ -4,7 +4,7 @@
       "docset_name": "OfficeDocs-MicrosoftSearch",
       "build_source_folder": "MicrosoftSearch",
       "build_output_subfolder": "OfficeDocs-MicrosoftSearch",
-      "locale": "ko-KR",
+      "locale": "ko-kr",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -17,7 +17,7 @@
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [],
+  "notification_subscribers": ["v-jijaku@microsoft.com","v-mipop@microsoft.com"],
   "sync_notification_subscribers": [],
   "branches_to_filter": [
     "live-sxs",
@@ -30,7 +30,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.ko-KR",
+      "url": "https://github.com/Microsoft/templates.docs.msft.ko-kr",
       "branch": "master",
       "branch_mapping": {}
     },
@@ -65,5 +65,8 @@
     "pdf": {
       "template_folder": "_themes.pdf"
     }
+  },
+  "docs_build_engine": {
+    "name": "docfx_v3"
   }
 }
